@@ -38,13 +38,13 @@ export default function EventCreatePage() {
         </div>
 
         <div className="flex gap-4">
-          <label className="w-12" htmlFor="eventname">
+          <label className="w-12" htmlFor="event_name">
             EventName
           </label>
           <textarea
-            name="eventname"
+            name="event_name"
             className="border rounded p-2 w-full"
-            id="eventname"
+            id="event_name"
           />
         </div>
 
