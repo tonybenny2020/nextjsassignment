@@ -13,5 +13,5 @@ datasource db {
 model Event {
   eventid Int @id @default(autoincrement())
   title String @db.VarChar(255)
-  event String?
+  eventname String?
 }
