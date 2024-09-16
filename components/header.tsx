@@ -23,7 +23,7 @@ export default function Header({ children }: HeaderProps) {
           </main>
     
           <footer className="bg-blue-500 text-white p-4 text-center">
-            &copy; 2024 MyApp. All Rights Reserved.
+            &copy; 2024 PlannerApp. All Rights Reserved.
           </footer>
         </div>
       )
