@@ -8,13 +8,12 @@ export default function EventCreatePage() {
 
     // Check the user's inputs and make sure they're valid
     const title = formData.get('title') as string;
-    const event_name = formData.get('event_name') as string;
 
     // Create a new record in the database
     const event = await db.event.create({
       data: {
         title,
-        event_name,
+        
       },
     });
 
@@ -38,13 +37,13 @@ export default function EventCreatePage() {
         </div>
 
         <div className="flex gap-4">
-          <label className="w-12" htmlFor="event_name">
+          <label className="w-12" htmlFor="eventname">
             EventName
           </label>
           <textarea
-            name="event_name"
+            name="eventname"
             className="border rounded p-2 w-full"
-            id="event_name"
+            id="eventname"
           />
         </div>
 
