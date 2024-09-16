@@ -9,11 +9,11 @@ export default function Header({ children }: HeaderProps) {
         <div className="min-h-screen flex flex-col">
           <header className="bg-blue-500 text-white p-4">
             <nav className="container mx-auto flex justify-between">
-              <a href="/" className="text-lg font-bold">Planner App</a>
+              <Link href="/" className="text-lg font-bold">Planner App</Link>
               <div className="space-x-4">
-                <a href="/" className="hover:underline">Home</a>
-                <a href="/aboutus" className="hover:underline">About</a>
-                <a href="/planner" className="hover:underline">Planner</a>
+                <Link href="/" className="hover:underline">Home</Link>
+                <Link href="/aboutus" className="hover:underline">About</Link>
+                <Link href="/planner" className="hover:underline">Planner</Link>
               </div>
             </nav>
           </header>
