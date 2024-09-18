@@ -8,12 +8,13 @@ export default function EventCreatePage() {
 
     // Check the user's inputs and make sure they're valid
     const title = formData.get('title') as string;
+    const eventname = formData.get('eventname') as string;
 
     // Create a new record in the database
     const event = await db.event.create({
       data: {
         title,
-        
+        eventname,
       },
     });
 
