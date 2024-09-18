@@ -17,7 +17,7 @@ export default function EventCreatePage() {
         eventname,
       },
     });
-
+    console.log(event);
     // Redirect the user back to the root route
     redirect('/');
   }
