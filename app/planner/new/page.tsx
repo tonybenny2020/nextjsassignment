@@ -39,7 +39,7 @@ export default function EventCreatePage() {
 
         <div className="flex gap-4">
           <label className="w-12" htmlFor="eventname">
-            EventName
+          Event
           </label>
           <textarea
             name="eventname"
